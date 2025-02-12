@@ -2,6 +2,8 @@ import logo from './logo.png'
 import bascket from './bascket.png'
 import search from './search.png'
 import header3 from './header3.png'
+import header4 from './header4.png'
+import header5 from './header5.png'
 
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -45,9 +47,9 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
-// import add_icon_white from './add_icon_white.png'
-// import add_icon_green from './add_icon_green.png'
-// import remove_icon_red from './remove_icon_red.png'
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
 // import app_store from './app_store.png'
 // import play_store from './play_store.png'
 // import linkedin_icon from './linkedin_icon.png'
@@ -55,7 +57,7 @@ import food_32 from './food_32.png'
 // import twitter_icon from './twitter_icon.png'
 // import cross_icon from './cross_icon.png'
 // import selector_icon from './selector_icon.png'
-// import rating_starts from './rating_starts.png'
+import rating_starts from './rating_starts.png'
 // import profile_icon from './profile_icon.png'
 // import bag_icon from './bag_icon.png'
 // import logout_icon from './logout_icon.png'
@@ -65,11 +67,13 @@ export const assets ={
     logo,
     bascket,
     search,
-    header3
-    // rating_starts,
-    // add_icon_green,
-    // add_icon_white,
-    // remove_icon_red,
+    header3,
+    header4,
+    header5,
+    rating_starts,
+    add_icon_green,
+    add_icon_white,
+    remove_icon_red,
     // app_store,
     // play_store,
     // linkedin_icon,
