@@ -11,7 +11,7 @@ const LoginPopup = ({setShowLogin}) => {
       <form className="login-popup-container">
         <div className='login-popup-title'>
             <h2>{currentState}</h2>
-            <img src={assets.cross_icon} onClick={()=>setShowLogin(false)} alt="" />
+            <img onClick={() => (setShowLogin(false))} src={assets.cross_icon} alt="" />
         </div>
         <div className='login-popup-inputs'>
             <input type="text" placeholder='Your name' required />
@@ -23,7 +23,7 @@ const LoginPopup = ({setShowLogin}) => {
             <input type="checkbox" required />
             <p>By counting, I agree to the terms of use & privacy policy</p>
         </div>
-        {currentState==="Login"?<p>Create a new account? <span onClick={()=>setCurrentState("Sign Up")} >Click here</span></p>
+        {currentState==="Log in"?<p>Create a new account? <span onClick={()=>setCurrentState("Sign Up")} >Click here</span></p>
         :<p>Already had an account? <span onClick={()=>setCurrentState("Log in")} >Login here</span></p>}
       </form>
     </div>
