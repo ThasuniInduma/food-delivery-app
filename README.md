@@ -24,7 +24,7 @@ A modern and responsive food delivery web application built using **React.js, Ja
   <tr>
     <td><img src="images/img1.png" alt="Home" width="700" height="300"/></td>
     <td><img src="images/img2.png" alt="Menu" width="700" height="300"/></td>
-    <td><img src="images/img3.png" alt="Contact" width="700" height="300"/></td>
+    <td><img src="images/img7.png" alt="Contact" width="700" height="300"/></td>
   </tr>
   <tr>
     <td><img src="images/img4.png" alt="Sign Up" width="700" height="300"/></td>
